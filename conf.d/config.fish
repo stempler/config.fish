@@ -18,6 +18,7 @@ abbr -a vi nvim
 abbr -a g git
 abbr -a gco git checkout
 abbr -a gci git commit
+abbr -a gcm git commit -m
 abbr -a gcp git cherry-pick
 abbr -a gst git status
 abbr -a add git add
