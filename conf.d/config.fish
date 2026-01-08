@@ -28,6 +28,9 @@ abbr -a rebase git pull --rebase
 abbr -a fix git commit --fixup
 abbr -a gas git rebase -i --autosquash
 
+# Terraform
+abbr -a tf terraform
+
 # Docker
 abbr -a d docker
 abbr -a dc docker compose
