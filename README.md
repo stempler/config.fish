@@ -12,6 +12,28 @@ Update using:
 fisher update stempler/config.fish
 ```
 
+## Local testing
+
+To test a local checkout without pushing, swap the remote install for the local one:
+
+```fish
+fisher remove stempler/config.fish
+fisher install (pwd)
+```
+
+To update when making changes:
+
+```fish
+fisher update (pwd)
+```
+
+To restore the remote install:
+
+```fish
+fisher remove (pwd)
+fisher install stempler/config.fish
+```
+
 ## Features
 
 ### mise environment indicator
